@@ -9,7 +9,7 @@
 #reaches this service
 export PORT=9090
 
+export BUILD_PACK_URL=https://github.com/intimonkey/approuter-buildpack.git
 #this is an autodeployed service, starphleet will watch this git repository
 #and if it sees and changes to a rolling, no-interruption deployment
 autodeploy http://github.glgroup.com/CoreProductDelivery/epiquery.git
-export BUILD_PACK_URL=https://github.com/intimonkey/approuter-buildpack.git
