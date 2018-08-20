@@ -8,6 +8,7 @@
 #http://<shipname>/echo
 #reaches this service
 export PORT=8080
+export SECURITY_MODE=public
 
 #this is an autodeployed service, starphleet will watch this git repository
 #and if it sees and changes to a rolling, no-interruption deployment
