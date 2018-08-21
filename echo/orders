@@ -9,5 +9,6 @@
 #reaches this service
 export PORT=3000
 export SECURITY_MODE=public
+export HEALTHCHECK='/diagnostic'
 
 autodeploy git@github.com:igroff/echo-js.git
